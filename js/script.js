@@ -47,7 +47,8 @@ const checkLocate = () => {
 // СЛАЙДЕР НА ГЛАВНОЙ СТРАНИЦЕ
 // ============================================================================
 
-if (window.location.pathname === './') {
+const sliderList = document.querySelector('.slider-list');
+if (sliderList) {
     const sliderList = document.querySelector('.slider-list');
     const sliderItems = document.querySelectorAll('.slider-item');
     const prevBtn = document.querySelector('.pagination-action.prev');
