@@ -376,7 +376,7 @@ function protectPage(requiredRole = null) {
 
     // Тренер панель
     if (window.location.pathname.includes('trainer')) {
-        if (window.location.pathname === '/trainers.html') {
+        if (window.location.pathname === './trainers.html') {
             return;
         }
             
