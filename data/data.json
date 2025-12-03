@@ -1,0 +1,358 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Client User Laravelovich",
+      "login": "client221",
+      "email": "client@example.com",
+      "role": "client",
+      "password": "client221",
+      "phone": "+7 (495) 123-45-67"
+    },
+    {
+      "id": 2,
+      "full_name": "Admin User Laravelovich",
+      "login": "admin221",
+      "email": "admin@example.com",
+      "role": "admin",
+      "password": "admin221",
+      "phone": "+7 (495) 123-45-67"
+    },
+    {
+      "id": 3,
+      "full_name": "Trainer User Laravelovich",
+      "login": "trainer221",
+      "email": "trainer@example.com",
+      "role": "trainer",
+      "password": "trainer221",
+      "phone": "+7 (495) 123-45-67"
+    },
+    {
+      "id": 4,
+      "full_name": "Андреа Чукотский",
+      "login": "trainer1",
+      "email": "trainer1@example.com",
+      "role": "trainer",
+      "password": "trainer1",
+      "phone": "+7 (495) 111-11-11"
+    },
+    {
+      "id": 5,
+      "full_name": "Роман Васильчук",
+      "login": "trainer2",
+      "email": "trainer2@example.com",
+      "role": "trainer",
+      "password": "trainer2",
+      "phone": "+7 (495) 222-22-22"
+    },
+    {
+      "id": 6,
+      "full_name": "Дмитрий Колесников",
+      "login": "trainer3",
+      "email": "trainer3@example.com",
+      "role": "trainer",
+      "password": "trainer3",
+      "phone": "+7 (495) 333-33-33"
+    },
+    {
+      "id": 7,
+      "full_name": "Алина Ремешкова",
+      "login": "trainer4",
+      "email": "trainer4@example.com",
+      "role": "trainer",
+      "password": "trainer4",
+      "phone": "+7 (495) 444-44-44"
+    },
+    {
+      "id": 8,
+      "full_name": "Иван Иванов",
+      "login": "client1",
+      "email": "client1@example.com",
+      "role": "client",
+      "password": "client1",
+      "phone": "+7 (495) 555-55-55"
+    },
+    {
+      "id": 9,
+      "full_name": "Мария Петрова",
+      "login": "client2",
+      "email": "client2@example.com",
+      "role": "client",
+      "password": "client2",
+      "phone": "+7 (495) 666-66-66"
+    },
+    {
+      "id": 10,
+      "full_name": "Сергей Сидоров",
+      "login": "client3",
+      "email": "client3@example.com",
+      "role": "client",
+      "password": "client3",
+      "phone": "+7 (495) 777-77-77"
+    }
+  ],
+  "abonements": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Абонемент 10 занятий",
+      "visits_left": 8,
+      "expires_at": "2026-03-03",
+      "price": 5000,
+      "description": "Абонемент на 10 занятий, действующий 3 месяца с момента активации"
+    },
+    {
+      "id": 2,
+      "user_id": 8,
+      "name": "Безлимитный месяц",
+      "visits_left": 9998,
+      "expires_at": "2026-01-03",
+      "price": 3000,
+      "description": "Безлимитные занятия в течение одного месяца"
+    },
+    {
+      "id": 3,
+      "user_id": 9,
+      "name": "Абонемент 20 занятий",
+      "visits_left": 18,
+      "expires_at": "2026-06-03",
+      "price": 8000,
+      "description": "Абонемент на 20 занятий, действующий 6 месяцев с момента активации"
+    },
+    {
+      "id": 4,
+      "user_id": 10,
+      "name": "Абонемент 10 занятий",
+      "visits_left": 9,
+      "expires_at": "2026-03-03",
+      "price": 5000,
+      "description": "Абонемент на 10 занятий, действующий 3 месяца с момента активации"
+    },
+    {
+      "id": 5,
+      "user_id": null,
+      "name": "Абонемент 10 занятий",
+      "visits_left": 10,
+      "expires_at": null,
+      "price": 5000,
+      "description": "Абонемент на 10 занятий, действующий 3 месяца с момента активации"
+    },
+    {
+      "id": 6,
+      "user_id": null,
+      "name": "Безлимитный месяц",
+      "visits_left": 9999,
+      "expires_at": null,
+      "price": 3000,
+      "description": "Безлимитные занятия в течение одного месяца"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "name": "Абонемент 20 занятий",
+      "visits_left": 20,
+      "expires_at": null,
+      "price": 8000,
+      "description": "Абонемент на 20 занятий, действующий 6 месяцев с момента активации"
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "service": "Йога",
+      "date": "2025-12-10T09:00:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 15,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "service": "Пилатес",
+      "date": "2025-12-10T10:30:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 12,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "service": "Кроссфит",
+      "date": "2025-12-10T14:00:00Z",
+      "instructor": "Дмитрий Колесников",
+      "trainer_id": 6,
+      "max_participants": 20,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "service": "Аэробика",
+      "date": "2025-12-11T15:00:00Z",
+      "instructor": "Роман Васильчук",
+      "trainer_id": 5,
+      "max_participants": 25,
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "service": "Танцы",
+      "date": "2025-12-11T18:00:00Z",
+      "instructor": "Андреа Чукотский",
+      "trainer_id": 4,
+      "max_participants": 15,
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "service": "Бокс",
+      "date": "2025-12-12T16:00:00Z",
+      "instructor": "Роман Васильчук",
+      "trainer_id": 5,
+      "max_participants": 10,
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "service": "Йога",
+      "date": "2025-12-12T19:00:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 15,
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "service": "Пилатес",
+      "date": "2025-12-13T09:00:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 12,
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "service": "Кроссфит",
+      "date": "2025-12-13T17:00:00Z",
+      "instructor": "Дмитрий Колесников",
+      "trainer_id": 6,
+      "max_participants": 20,
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "service": "Аэробика",
+      "date": "2025-12-14T10:00:00Z",
+      "instructor": "Роман Васильчук",
+      "trainer_id": 5,
+      "max_participants": 25,
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "service": "Танцы",
+      "date": "2025-12-14T19:00:00Z",
+      "instructor": "Андреа Чукотский",
+      "trainer_id": 4,
+      "max_participants": 15,
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "service": "Бокс",
+      "date": "2025-12-15T14:00:00Z",
+      "instructor": "Роман Васильчук",
+      "trainer_id": 5,
+      "max_participants": 10,
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "service": "Йога",
+      "date": "2025-12-16T09:00:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 15,
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "service": "Пилатес",
+      "date": "2025-12-17T10:30:00Z",
+      "instructor": "Алина Ремешкова",
+      "trainer_id": 7,
+      "max_participants": 12,
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "service": "Кроссфит",
+      "date": "2025-12-18T14:00:00Z",
+      "instructor": "Дмитрий Колесников",
+      "trainer_id": 6,
+      "max_participants": 20,
+      "status": "active"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "schedule_id": 1,
+      "status": "registered"
+    },
+    {
+      "id": 2,
+      "user_id": 8,
+      "schedule_id": 1,
+      "status": "registered"
+    },
+    {
+      "id": 3,
+      "user_id": 9,
+      "schedule_id": 2,
+      "status": "registered"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "schedule_id": 3,
+      "status": "registered"
+    },
+    {
+      "id": 5,
+      "user_id": 10,
+      "schedule_id": 4,
+      "status": "registered"
+    },
+    {
+      "id": 6,
+      "user_id": 8,
+      "schedule_id": 5,
+      "status": "registered"
+    },
+    {
+      "id": 7,
+      "user_id": 9,
+      "schedule_id": 6,
+      "status": "registered"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "service": "Групповая тренировка",
+      "date": "2025-12-05T14:00:00Z",
+      "instructor": "Иван Иванов",
+      "status": "Записан"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "service": "Индивидуальное занятие",
+      "date": "2025-12-09T18:00:00Z",
+      "instructor": "Мария Петрова",
+      "status": "Ожидает подтверждения"
+    }
+  ]
+}
