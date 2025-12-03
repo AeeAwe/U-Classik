@@ -2,7 +2,7 @@
 // КОПИРОВАНИЕ ПРИ НАЖАТИИ НА ТЕСТОВЫЕ ДАННЫЕ ПРИ ВХОДЕ
 // ============================================================================
 
-if (window.location.pathname === '/login.html') {
+if (window.location.pathname.endsWith('login.html')) {
     const parent = document.querySelector('.for-test');
     if (parent) {
         parent.addEventListener('click', (e) => {
